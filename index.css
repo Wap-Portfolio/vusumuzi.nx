@@ -742,11 +742,12 @@
  
 .home-text34 {
   color: #f2f5f9;
-  font-size: 1.125rem;
+  font-size: 1.05rem;
   margin-top: var(--dl-layout-space-unit);
-  font-weight: 400;
+  font-weight: 250;
   text-transform: none;
   text-decoration: none;
+  
 }
  
 .home-thq-section2-elm {
