@@ -21,7 +21,7 @@
 }
  
 .header-container1 {
-  height: 14px;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -29,14 +29,14 @@
 }
  
 .header-navlink1 {
-  transition: 0.5s;
+  transition: 0.3s;
   margin-left: var(--dl-layout-space-halfunit);
   margin-right: var(--dl-layout-space-halfunit);
   text-decoration: none;
 }
  
 .header-navlink1:hover {
-  transform: scale(0.95);
+  transform: scale(1.1);
 }
  
 .header-navlink2 {
@@ -552,14 +552,10 @@
   flex: 0 0 auto;
   display: flex;
   align-self: center;
-  margin-top: var(--dl-layout-space-doubleunit);
+  margin-top: var(--dl-layout-space-unit);
   align-items: center;
   flex-direction: row;
   justify-content: center;
-}
- 
-.profile-icon15 {
-  align-self: center;
 }
  
 .profile-text3 {
@@ -587,10 +583,6 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-}
- 
-.profile-icon17 {
-  align-self: center;
 }
  
 .profile-thq-text-elm {

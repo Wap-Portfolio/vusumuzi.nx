@@ -21,7 +21,7 @@
 }
  
 .header-container1 {
-  height: 14px;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -29,14 +29,14 @@
 }
  
 .header-navlink1 {
-  transition: 0.5s;
+  transition: 0.3s;
   margin-left: var(--dl-layout-space-halfunit);
   margin-right: var(--dl-layout-space-halfunit);
   text-decoration: none;
 }
  
 .header-navlink1:hover {
-  transform: scale(0.95);
+  transform: scale(1.1);
 }
  
 .header-navlink2 {
