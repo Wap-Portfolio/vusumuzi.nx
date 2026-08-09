@@ -673,7 +673,8 @@
 .home-text27 {
   color: var(--dl-color-secondary-500);
   margin-top: var(--dl-layout-space-unit);
-  line-height: 1.25;
+  line-height: 1.75;
+  font-weight: 450;
   margin-bottom: var(--dl-layout-space-unit);
 }
  
@@ -742,7 +743,8 @@
  
 .home-text34 {
   color: #f2f5f9;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
+  font-family: "Open Sans";
   margin-top: var(--dl-layout-space-unit);
   font-weight: 250;
   text-transform: none;

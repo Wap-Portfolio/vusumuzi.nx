@@ -542,6 +542,9 @@
 }
  
 .profile-text2 {
+  font-weight: 600;
+  line-height: 1.125;
+  font-size: 0.80rem;
   fill: var(--dl-color-secondary-700);
   color: var(--dl-color-secondary-700);
   margin-left: var(--dl-layout-space-halfunit);
@@ -561,7 +564,10 @@
 .profile-text3 {
   fill: var(--dl-color-secondary-700);
   color: var(--dl-color-secondary-700);
+  font-size: 1rem;
   text-align: center;
+  font-weight: 600;
+  line-height: 1.25rem;
   margin-left: var(--dl-layout-space-halfunit);
   margin-right: var(--dl-layout-space-halfunit);
 }
@@ -586,6 +592,12 @@
 }
  
 .profile-thq-text-elm {
+  font-weight: 700;
+  line-height: 1.75;
+  font-size: 1.25rem;
+  text-decoration: underline;
+  text-decoration-color: var(--dl-color-pimary-500);
+  text-underline-offset: 0.25rem;
   fill: var(--dl-color-secondary-700);
   color: var(--dl-color-secondary-700);
   margin-left: var(--dl-layout-space-halfunit);
