@@ -36,7 +36,7 @@
 }
  
 .header-navlink1:hover {
-  transform: scale(1.1);
+  transform: scale(1.025);
 }
  
 .header-navlink2 {
@@ -73,8 +73,13 @@
   margin-right: var(--dl-layout-space-triplequarter);
   margin-bottom: var(--dl-layout-space-halfunit);
   text-decoration: none;
+  transition: 0.3s;
 }
  
+.header-icon13:hover {
+  transform: scale(1.125);
+}
+
 .header-link2 {
   display: contents;
 }
@@ -84,8 +89,13 @@
   height: 22px;
   margin: var(--dl-layout-space-triplequarter);
   text-decoration: none;
+  transition: 0.3s;
 }
- 
+
+.header-icon15:hover {
+  transform: scale(1.125);
+}
+
 .header-link3 {
   display: contents;
 }
@@ -99,8 +109,13 @@
   margin-right: var(--dl-layout-space-triplequarter);
   margin-bottom: var(--dl-layout-space-halfunit);
   text-decoration: none;
+  transition: 0.3s;
 }
- 
+
+.header-icon19:hover {
+  transform: scale(1.125);
+}
+
 .headerroot-class-name {
   margin-bottom: 0px;
 }
@@ -218,8 +233,13 @@
   height: var(--dl-layout-size-doubleunit);
   display: block;
   text-decoration: none;
+  transition: 0.3s;
 }
  
+.footer-icon10:hover {
+  transform: scale(1.125);
+}
+
 .footer-container6 {
   flex: 0 0 auto;
   width: 2.5rem;
@@ -242,8 +262,13 @@
   width: var(--dl-layout-size-doubleunit);
   height: var(--dl-layout-size-doubleunit);
   text-decoration: none;
+  transition: 0.3s;
 }
  
+.footer-icon18:hover {
+  transform: scale(1.125);
+}
+
 .footer-container7 {
   flex: 0 0 auto;
   width: 2.5rem;
@@ -268,8 +293,13 @@
   justify-items: center;
   justify-content: center;
   text-decoration: none;
+  transition: 0.3s;
 }
  
+.footer-icon22:hover {
+  transform: scale(1.125);
+}
+
 .footer-text2 {
   color: var(--dl-color-secondary-500);
   margin-top: var(--dl-layout-space-halfunit);
@@ -371,7 +401,7 @@
 .home-text11 {
   color: var(--dl-color-gray-900);
   font-size: 1.25rem;
-  max-width: 600px;
+  max-width: 850px;
   font-style: normal;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
